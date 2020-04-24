@@ -1,6 +1,6 @@
 import React from 'react';
 import helmet from '../../assets/helmet.png';
-import hero from '../../assets/hero.jpg';
+import hero from '../../assets/hero.png';
 import './landing.scss';
 
 const Landing = () => {
@@ -31,22 +31,22 @@ const Landing = () => {
         <div className="content">
           <div className="card">
             <h4>RESPECT</h4>
-            <p>We serve our clients with humility and respect.</p>
+            <p>- We serve our clients with humility and respect.</p>
           </div>
           <div className="card">
             <h4>INTEGRITY</h4>
             <p>
-              We are honest in all our business procedures with clients as well
-              as with our colleagues internally. Our moral standards give us the
-              basis for taking pride in all our actions and strengthen our
-              belief in what we are doing
+              - We are honest in all our business procedures with clients as
+              well as with our colleagues internally. Our moral standards give
+              us the basis for taking pride in all our actions and strengthen
+              our belief in what we are doing.
             </p>
           </div>
           <div className="card">
             <h4>ESSENTIALISM</h4>
             <p>
-              We exert efforts and focus to achieve maximum performance and
-              potimum output
+              - We exert efforts and focus to achieve maximum performance and
+              potimum output.
             </p>
           </div>
         </div>

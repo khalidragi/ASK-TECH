@@ -1,12 +1,17 @@
 $base-color: #fba508;
+$body-font: 'Roboto', sans-serif;
 
 .App {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   .footer {
     background-color: #fba508;
     color: white;
     display: flex;
     justify-content: center;
+    flex-shrink: 0;
+    font-family: $body-font;
     p {
       font-size: 0.8rem;
       margin: 3px 0;
@@ -14,7 +19,7 @@ $base-color: #fba508;
   }
   .content-body {
     width: 80%;
+    flex: 1 0 auto;
     margin: 0 auto;
-    height: 97.3%;
   }
 }

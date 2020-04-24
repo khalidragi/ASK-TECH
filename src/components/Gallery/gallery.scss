@@ -1,0 +1,31 @@
+$base-color: #fba508;
+$text-color: #2e3b44;
+$secondary-color: #054a91;
+$white: #f9f8f7;
+$body-font: 'Roboto', sans-serif;
+$heading-font: 'Anton', sans-serif;
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .title {
+    h1 {
+      font-family: $body-font;
+      font-size: 2.6rem;
+      text-transform: uppercase;
+      span {
+        font-weight: 300;
+      }
+    }
+  }
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      object-fit: cover;
+    }
+  }
+}
