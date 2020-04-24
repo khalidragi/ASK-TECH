@@ -1,0 +1,30 @@
+$base-color: #fba508;
+$text-color: #2e3b44;
+$secondary-color: #054a91;
+$white: #f9f8f7;
+$body-font: 'Open Sans', sans-serif;
+$heading-font: 'Anton', sans-serif;
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    a {
+      text-decoration: none;
+      font-family: $body-font;
+      color: $text-color;
+      font-size: 1.2rem;
+      &:hover {
+        border-bottom: $base-color solid 2px;
+      }
+    }
+  }
+}
+.active-navlink {
+  color: $base-color;
+}
