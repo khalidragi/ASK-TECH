@@ -18,7 +18,7 @@ const Landing = () => {
           </div>
           <div className="right">
             <h1>
-              A<span>S</span>K<span> TECH</span> GROUP
+              A<span>S</span>K<span> TECH</span>
             </h1>
             <h3>Ask For Anything, We will make it happen.</h3>
           </div>

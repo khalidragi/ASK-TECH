@@ -8,6 +8,7 @@ import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Gallery from './components/Gallery/Gallery';
 import Contact from './components/Contact/Contact';
+import BurgerMenu from './components/BurgerMenu/BurgerMenu';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <BrowserRouter>
         <div className="content-body">
           <NavBar />
+          <BurgerMenu />
           <Switch>
             <Route exact path="/" component={Landing} />
             <Route path="/projects" component={Projects} />

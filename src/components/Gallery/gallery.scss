@@ -29,3 +29,23 @@ $heading-font: 'Anton', sans-serif;
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .gallery {
+    .title {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+    .carousel {
+      .carousel-slider {
+        width: 385px !important;
+        align-self: center !important;
+      }
+      img {
+        height: 380px !important;
+        justify-content: flex-start !important;
+      }
+    }
+  }
+}

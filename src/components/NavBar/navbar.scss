@@ -28,3 +28,12 @@ $heading-font: 'Anton', sans-serif;
 .active-navlink {
   color: $base-color;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav-bar {
+    justify-content: center;
+  }
+  .nav-links {
+    display: none !important;
+  }
+}

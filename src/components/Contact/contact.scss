@@ -148,3 +148,14 @@ $heading-font: 'Anton', sans-serif;
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .heading {
+    h2 {
+      font-size: 1.6rem !important;
+    }
+  }
+  .bottom {
+    flex-direction: column;
+  }
+}

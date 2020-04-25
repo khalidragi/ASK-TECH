@@ -110,3 +110,46 @@ $heading-font: 'Anton', sans-serif;
     }
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .content {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    .left {
+      width: 60% !important;
+      p {
+        text-align: center;
+        background-color: #fba608c7 !important;
+      }
+    }
+    .right {
+      justify-content: center;
+      padding: 0 !important;
+      flex-direction: column;
+      h1 {
+        font-size: 4rem !important;
+        display: none;
+      }
+      h3 {
+        font-size: 2rem !important;
+        margin: 0;
+        background-color: rgba(238, 238, 238, 0.438) !important;
+        letter-spacing: 2.5px;
+      }
+    }
+  }
+  .body {
+    flex-direction: column;
+    .image {
+      img {
+        display: none;
+      }
+    }
+    .content {
+      align-items: center !important;
+      p {
+      }
+    }
+  }
+}
